@@ -1,0 +1,47 @@
+.header {
+  background-image: url(../assets/img-headerShape.png);
+  height: 400px;
+  padding-top: 135px;
+  padding-left: 124px;
+}
+
+.personal-info {
+  display: flex;
+  font-family: Microsoft JhengHei;
+  
+}
+
+.personal-photo-name {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+.personal-photo-name h1 {
+  font-size: 42px;
+  margin: 5px 0;
+}
+
+.personal-photo-name p {
+  color: #4A4A4A;
+  font-size: 14px;
+  margin: 5px 0;
+}
+
+.personal-contacts {
+  padding-left: 136px;
+}
+
+.personal-contacts .contact {
+  display: flex;
+  align-items: center;
+}
+
+.personal-contacts .contact img {
+  margin: 10px;
+}
+.personal-contacts .contact p{
+  color: #fff;
+  font-size: 18px;
+}
