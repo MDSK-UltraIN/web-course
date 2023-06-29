@@ -50,14 +50,30 @@ table {
 .wrapper {
   margin: 0 auto;
   background: #fafafa;
-  width: 1024px
+  width: 1024px;
+  /* box-sizing: border-box; */
+  font-family: Microsoft JhengHei;
 }
 
 .wrapper-content {
   box-sizing: border-box;
-  font-family: Microsoft JhengHei;
+  
 }
 
+.blue-title {
+  text-align: center;
+  font-size: 24px;
+  color: #1736DC;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
 
-
+.pink-title {
+  text-align: center;
+  font-size: 24px;
+  color: #FB56BF;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
 
