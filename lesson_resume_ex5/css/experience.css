@@ -1,0 +1,97 @@
+.experience-section {
+  margin: 50px 0;
+  height: 650px;
+}
+
+.experience-content {
+  margin: 30px 0;
+  position: relative;
+}
+
+.exp-tree-dot-start img {
+  display: block;
+  margin: auto;
+}
+
+.exp-tree-center-line {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.exp-tree-center-line .left-line {
+  width: 23px;
+  height: 100%;
+  border-right: 1px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.exp-tree-center-line .right-line {
+  width: 23px;
+  height: 100%;
+  border-left: 1px solid #d8d8d8;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.exp-boxes {
+  width: 650px;
+  margin: 50px 0;
+  position: relative;
+  left: 50%;
+  /* 控制物件偏移 */
+  transform: translateX(-50%); 
+}
+
+.exp-boxes .exp-box-dot {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.exp-boxes .box {
+  display: flex;
+  justify-content: end;
+}
+.exp-boxes .box-left {
+  display: flex;
+}
+
+.exp-boxes .exp-box-content {
+  width: 260px;
+  border: 1px solid #FB56BF;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 0 12px;
+}
+
+.exp-boxes .exp-box-content .date {
+  font-size: 12px;
+  font-weight: bold;
+  color: #4a4a4a;
+  letter-spacing: 0.53px;
+}
+
+.exp-boxes .exp-box-content .title {
+  font-size: 12px;
+  font-weight: bold;
+  color: #8A1737;
+  letter-spacing: 0.53px;
+}
+
+.exp-boxes .exp-box-content .company {
+  font-size: 12px;
+  color: #4A4A4A;
+  letter-spacing: 0.53px;
+}
+
+.exp-boxes .exp-box-content p {
+  font-size: 10px;
+  color: #9B9B9B;
+  letter-spacing: 0.44px;
+  line-height: 18px;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
