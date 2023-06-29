@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   height: 400px;
   padding-top: 135px;
-  padding-left: 124px;
+  
 }
 
 .personal-info {
@@ -15,7 +15,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  
+  margin: 0 90px;
 }
 
 .personal-photo-name h1 {
@@ -44,8 +44,6 @@
 }
 
 
-
-
 .personal-contacts .contact {
   display: flex;
   align-items: center;
@@ -58,4 +56,11 @@
 .personal-contacts .contact p{
   color: #fff;
   font-size: 18px;
+}
+
+@media screen and (max-width: 768px) {
+  .personal-info {
+    flex-direction: column;
+    align-items: center;
+  }
 }

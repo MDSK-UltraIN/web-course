@@ -47,17 +47,21 @@ table {
 	border-spacing: 0;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .wrapper {
   margin: 0 auto;
   background: #fafafa;
-  width: 1024px;
+  max-width: 1024px;
   /* box-sizing: border-box; */
   font-family: Microsoft JhengHei;
 }
 
 .wrapper-content {
   box-sizing: border-box;
-  
+  /* margin: 0 auto; */
 }
 
 .blue-title {
