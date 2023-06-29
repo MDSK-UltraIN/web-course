@@ -49,6 +49,7 @@
 .personal-contacts .contact {
   display: flex;
   align-items: center;
+  padding-right: 10px;
 }
 
 .personal-contacts .contact img {
