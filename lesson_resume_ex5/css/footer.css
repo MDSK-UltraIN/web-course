@@ -1,0 +1,13 @@
+.footer {
+  background-image: url(../assets/img-Looper-bg.png);
+  background-repeat: no-repeat;
+  height: 87px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  font-size: 16px;
+}
