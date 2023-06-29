@@ -1,0 +1,21 @@
+.about-section {
+  width: 885px;
+  margin: 0 auto;
+}
+
+.about {
+  padding: 0 60px;
+  display: flex;
+  align-items: center;
+}
+
+.about-img {
+  margin-right: 44px;
+}
+
+.about-content p {
+  margin: 20px 0;
+  color: #4a4a4a;
+  font-size: 14px;
+  line-height: 26px;
+}
