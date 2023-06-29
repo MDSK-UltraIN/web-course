@@ -11,15 +11,35 @@
   margin-bottom: 20px;
 }
 
-.skill-block{
+.skills {
+  display: flex;
+  justify-content: space-around;
+}
+
+.skill-block {
   width: 284px;
   text-align: center;
   background-color: #fff;
   border-radius: 6px;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+}
+
+.skill-block:hover {
+  box-shadow: 0 0 30px #ccc;
+  transition: 0.4s;
 }
 
 .orange-web {
-  border-bottom: 6px solid orange;
+  border-bottom: 6px solid #F58D23;
+}
+
+.green-js {
+  border-bottom: 6px solid #539E43;
+}
+
+.dev-blue {
+  border-bottom: 6px solid #6762A6;
 }
 
 .skill-block img {
@@ -34,10 +54,17 @@
 
 .skill-block ul {
   padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .skill-block ul li {
   text-align: left;
   font-size: 10px;
+  list-style-type: disc;
+  margin-left: 40px;
+  padding-left: 10px;
+  color: #4A4A4A;
+  line-height: 1.5;
 }
 
