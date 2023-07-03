@@ -1,0 +1,33 @@
+h1 {
+  color: blue;
+}
+
+p a {
+  color: red;
+}
+
+h2 {
+  border-left: 5px solid red;
+  border-bottom: 5px solid red;
+}
+
+.delete_line {
+  text-decoration-line:line-through;
+}
+
+.imgs {
+  position: relative;
+}
+
+.imgs img {
+  border: 5px solid #d79393;
+  position: absolute;
+}
+
+.imgs img:last-child:hover {
+  opacity: 0;
+}
+
+.imgs img:first-child {
+  border: 5px solid #8b93a0;
+}
