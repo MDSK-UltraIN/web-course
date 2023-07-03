@@ -1,7 +1,7 @@
 .header {
   background-image: url(../assets/img-headerShape.png);
   background-repeat: no-repeat;
-  height: 400px;
+  /* height: 400px; */
   padding-top: 135px;
   
 }
@@ -15,7 +15,7 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  margin: 0 90px;
+  margin: 0 120px;
 }
 
 .personal-photo-name h1 {
@@ -28,11 +28,6 @@
   font-size: 14px;
   margin: 5px 0;
 }
-
-.personal-contacts {
-  padding-left: 136px;
-}
-
 
 .personal-contacts a {
   text-decoration: none;
@@ -62,5 +57,11 @@
   .personal-info {
     flex-direction: column;
     align-items: center;
+    align-items: center;
+  }
+
+  .personal-contacts {
+    background-color: #eee;
+    border-radius: 5px;
   }
 }
