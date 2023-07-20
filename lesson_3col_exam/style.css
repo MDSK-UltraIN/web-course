@@ -9,11 +9,12 @@ header {
   display: flex;
 }
 
-.link p {
+.link li {
   margin: 20px;
+  list-style: none;
 }
 
-.link p a {
+.link li a {
   text-decoration: none;
   color: #fff;
   font-size: 18px;
@@ -25,7 +26,8 @@ main {
 
 .left {
   max-width: 220px;
-  margin: 20px 20px 20px 0;
+  margin: 10px;
+  padding: 10px;
 }
 
 .left p {
@@ -35,7 +37,8 @@ main {
 }
 
 .middle {
-  margin: 20px;
+  margin: 10px;
+  padding: 10px;
 }
 
 .middle p {
@@ -44,7 +47,8 @@ main {
 }
 
 .right {
-  margin: 20px;
+  margin: 10px;
+  padding: 10px;
   max-width: 120px;
 }
 
